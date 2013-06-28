@@ -29,3 +29,15 @@ The partitioning scheme prompt will appear. Choose the first option.
 At the next prompt press enter to finish partitioning
 
 At the next prompt hilight Yesand press enter to write the changes.
+
+Plug in your Ethernet connection if you want the full install
+
+You can opt in or out of supplying the developers with usage statistics
+
+Then install standard system utilities
+
+If this is your first install, use GRUB as your bootloader
+
+Installation should now be complete. Remove the CD and hit continue.
+
+The system will reboot and load Debian.
