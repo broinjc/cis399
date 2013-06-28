@@ -41,3 +41,8 @@ If this is your first install, use GRUB as your bootloader
 Installation should now be complete. Remove the CD and hit continue.
 
 The system will reboot and load Debian.
+
+
+To set up the network follow this guide.
+sudo vi ...
+http://wiki.debian.org/NetworkConfiguration#Setting_up_an_Ethernet_Interface
