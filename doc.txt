@@ -18,3 +18,14 @@ Next you will be prompted to enter a hostname for the computer.
 
 Then you'll set up root and normal user account names and passwords.
 
+You'll be asked for your time zone, select the one you live in.
+
+The patitioning method prompt will appear, and choose the first option to use the entire disk.
+
+It will list your disks, press enter.
+
+The partitioning scheme prompt will appear. Choose the first option.
+
+At the next prompt press enter to finish partitioning
+
+At the next prompt hilight Yesand press enter to write the changes.
