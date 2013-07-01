@@ -1,0 +1,66 @@
+commit 7cc6048cb6e7aabedf3f8c6390f52d1a81f58009
+Author: Nathan <broinjc@gmail.com>
+Date:   Fri Jun 28 17:28:00 2013 -0700
+
+    Accidentally deleted the file. Fixed.
+
+commit d5da7c2157d8cfbc7a1f31e4ca6a32f60ae66bd9
+Merge: 70624a5 45ac13d
+Author: Nathan <broinjc@gmail.com>
+Date:   Fri Jun 28 17:25:12 2013 -0700
+
+    fix
+
+commit 70624a5bb6974deccadcd14f8327a4c37fb35e00
+Author: Nathan <broinjc@gmail.com>
+Date:   Fri Jun 28 17:24:24 2013 -0700
+
+    fix
+
+commit 45ac13d8f03ad0e3204894965e80f8193fad697e
+Author: Nathan <broinjc@gmail.com>
+Date:   Fri Jun 28 15:23:42 2013 -0700
+
+    network
+
+commit e53fbfed0e2a9f14906177db2eb34d295b799229
+Author: mitchmeabe <mitchmeabe@gmail.com>
+Date:   Fri Jun 28 15:03:08 2013 -0700
+
+    Update doc.txt
+
+commit 325325780027847fe344f86526500dbb86728e4f
+Author: mitchmeabe <mitchmeabe@gmail.com>
+Date:   Fri Jun 28 14:49:14 2013 -0700
+
+    Update doc.txt
+
+commit dfa181a65adba225963a72fd7bce0a4917efb646
+Author: Nathan <broinjc@gmail.com>
+Date:   Fri Jun 28 14:43:34 2013 -0700
+
+    640K ought to be enough for anybody
+
+commit 91e6960b3deade1bce384bf6d75ffdebeae6ba42
+Author: mitchmeabe <mitchmeabe@gmail.com>
+Date:   Fri Jun 28 14:29:56 2013 -0700
+
+    Update doc.txt
+
+commit 38075b4b1e5ee2ecc1402c40a0a96ecf663dea72
+Author: mitchmeabe <mitchmeabe@gmail.com>
+Date:   Fri Jun 28 14:22:00 2013 -0700
+
+    Update doc.txt
+
+commit 6eb6e1627d68307da52e2dc52337c72cd4731fd6
+Author: mitchmeabe <mitchmeabe@gmail.com>
+Date:   Fri Jun 28 14:21:16 2013 -0700
+
+    Update doc.txt
+
+commit 77c831727b3fff0dcec18e907cc0d8eec7b3bf0e
+Author: Nathan Nichols <broinjc@gmail.com>
+Date:   Fri Jun 28 14:09:01 2013 -0700
+
+    My first commit
