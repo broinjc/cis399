@@ -1,7 +1,7 @@
 How to install debian
 ---
 
-1. In this install, we'll be using Debian. Download the "i386" image from http://www.debian.org/distrib/netinst
+1. In this install, we'll be using Debian. Download the "i386" [here](http://cdimage.debian.org/debian-cd/7.1.0/i386/iso-cd/debian-7.1.0-i386-netinst.iso)
 2. Burn the downloaded .iso file onto a CD using any CD-burning program.
 3. Turn on the computer, insert the CD into the CD drive, and restart the computer. (If it does not automatically boot into the Debian install process, ensure your computer's BIOS primary boot device is set to CD)
 
