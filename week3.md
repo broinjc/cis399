@@ -28,6 +28,7 @@
 
 ### 3. A list of the security advisories for your version of your OS, and the patches and updates you have installed.
 ---
+
 We checked open ports before connecting to the network. We then installed sudo and openssh. After setting that up our ports are:
 
     Active Internet connections (servers and established)
@@ -35,6 +36,8 @@ We checked open ports before connecting to the network. We then installed sudo a
     tcp        0      0 *:ssh                   *:*                     LISTEN     
     tcp        0     48 128.223.203.11:ssh      wlan-nat-outside-:49519 ESTABLISHED
     tcp6       0      0 [::]:ssh                [::]:*                  LISTEN    
+
+We will keep an eye on [debians security site](http://www.debian.org/security/).
 
 After modifying /etc/apt/sources.list to include package mirrors from debian,
 We ran:
