@@ -51,7 +51,14 @@ This installed various packages. A detailed list can be found in /var/log/apt/hi
     libk5crypto3:i386 (1.10.1+dfsg-5, 1.10.1+dfsg-5+deb7u1), 
     libgssapi-krb5-2:i386 (1.10.1+dfsg-5, 1.10.1+dfsg-5+deb7u1)
     End-Date: 2013-07-08  09:53:13
-    
+
+__Kerberos runtime libraries__
+(_a system for authenticating users and services on a network_)
+* libkrb5-3
+* libkrb5support0
+* libk5crypto3
+* libgssapi-krb5-2
+
 ### 4. Your plan for regularly checking for and applying updates from your OS distributor.
 ---
 sudo apt-get upgrade
