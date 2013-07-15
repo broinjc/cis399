@@ -61,6 +61,8 @@ _(a system for authenticating users and services on a network)_
 
 ### 4. Your plan for regularly checking for and applying updates from your OS distributor.
 ---
+Added "0 2 * * 1 apt-get update -y > /dev/null &" to the crontab, so the system will update automatically, weekly.
+
 __sudo apt-get update__ _(downloads the package lists from the repositories and "updates" them to get information on the newest versions of packages and their dependencies. It will do this for all repositories)_
 
 __sudo apt-get upgrade__ _(will fetch new versions of packages existing on the machine if APT knows about these new versions by way of apt-get update)_
