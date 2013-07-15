@@ -53,7 +53,7 @@ This installed various packages. A detailed list can be found in /var/log/apt/hi
     End-Date: 2013-07-08  09:53:13
 
 __Kerberos runtime libraries__
-(_a system for authenticating users and services on a network_)
+_(a system for authenticating users and services on a network)_
 * libkrb5-3
 * libkrb5support0
 * libk5crypto3
