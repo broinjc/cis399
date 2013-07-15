@@ -39,8 +39,8 @@ We checked open ports before connecting to the network. We then installed sudo a
 After modifying /etc/apt/sources.list to include package mirrors from debian,
 We ran:
 
-    sudo apt-get upgrade
     sudo apt-get update
+    sudo apt-get upgrade
 
 This installed various packages. A detailed list can be found in /var/log/apt/history.log which we've included.
 
@@ -61,17 +61,11 @@ _(a system for authenticating users and services on a network)_
 
 ### 4. Your plan for regularly checking for and applying updates from your OS distributor.
 ---
-sudo apt-get upgrade
-sudo apt-get update
+-__sudo apt-get update__ _(downloads the package lists from the repositories and "updates" them to get information on the newest versions of packages and their dependencies. It will do this for all repositories)_
+-__sudo apt-get upgrade__ _(will fetch new versions of packages existing on the machine if APT knows about these new versions by way of apt-get update)_
 
+[source](http://askubuntu.com/questions/222348/what-does-sudo-apt-get-update-do)
     
-    linus@olga:~$ vim week3
-    linus@olga:~$ sudo apt-get upgrade
-    [sudo] password for linus: 
-    Reading package lists... Done
-    Building dependency tree       
-    Reading state information... Done
-    0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
     linus@olga:~$ sudo apt-get update
     Get:1 http://ftp.debian.org wheezy-updates Release.gpg [1,571 B]                            
     Get:2 http://ftp.debian.org wheezy-updates Release [116 kB]                                                  
@@ -94,6 +88,11 @@ sudo apt-get update
     Hit http://http.debian.net wheezy/non-free Translation-en
     Fetched 392 kB in 3s (117 kB/s)
     Reading package lists... Done
-    linus@olga:~$ 
-    
+    linus@olga:~$ sudo apt-get upgrade
+    [sudo] password for linus: 
+    Reading package lists... Done
+    Building dependency tree       
+    Reading state information... Done
+    0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
 
